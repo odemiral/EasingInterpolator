@@ -19,5 +19,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/odemiral/EasingInterpolator.git", :tag => "#{spec.version}" }
   spec.source_files  = "EasingInterpolator/**"
   # spec.requires_arc = true
-
+  spec.swift_version = "5"
 end
