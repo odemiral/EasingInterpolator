@@ -11,6 +11,9 @@
 		778CDC9C2807A7E200A83B20 /* EasingInterpolator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778CDC912807A7E200A83B20 /* EasingInterpolator.framework */; };
 		778CDCA12807A7E200A83B20 /* EasingInterpolatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778CDCA02807A7E200A83B20 /* EasingInterpolatorTests.swift */; };
 		778CDCA22807A7E200A83B20 /* EasingInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 778CDC942807A7E200A83B20 /* EasingInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778CDCAC2807A81C00A83B20 /* EasingInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778CDCAB2807A81C00A83B20 /* EasingInterpolator.swift */; };
+		778CDCAE2807A8FF00A83B20 /* Ease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778CDCAD2807A8FF00A83B20 /* Ease.swift */; };
+		778CDCB02807A92400A83B20 /* EasingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778CDCAF2807A92400A83B20 /* EasingProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		778CDC952807A7E200A83B20 /* EasingInterpolator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EasingInterpolator.docc; sourceTree = "<group>"; };
 		778CDC9B2807A7E200A83B20 /* EasingInterpolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasingInterpolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778CDCA02807A7E200A83B20 /* EasingInterpolatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasingInterpolatorTests.swift; sourceTree = "<group>"; };
+		778CDCAB2807A81C00A83B20 /* EasingInterpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasingInterpolator.swift; sourceTree = "<group>"; };
+		778CDCAD2807A8FF00A83B20 /* Ease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ease.swift; sourceTree = "<group>"; };
+		778CDCAF2807A92400A83B20 /* EasingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasingProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 		778CDC932807A7E200A83B20 /* EasingInterpolator */ = {
 			isa = PBXGroup;
 			children = (
+				778CDCAB2807A81C00A83B20 /* EasingInterpolator.swift */,
+				778CDCAD2807A8FF00A83B20 /* Ease.swift */,
+				778CDCAF2807A92400A83B20 /* EasingProvider.swift */,
 				778CDC942807A7E200A83B20 /* EasingInterpolator.h */,
 				778CDC952807A7E200A83B20 /* EasingInterpolator.docc */,
 			);
@@ -195,6 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				778CDC962807A7E200A83B20 /* EasingInterpolator.docc in Sources */,
+				778CDCB02807A92400A83B20 /* EasingProvider.swift in Sources */,
+				778CDCAC2807A81C00A83B20 /* EasingInterpolator.swift in Sources */,
+				778CDCAE2807A8FF00A83B20 /* Ease.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +362,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +391,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +410,7 @@
 		778CDCA92807A7E200A83B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H7FK237D5Z;
@@ -412,6 +427,7 @@
 		778CDCAA2807A7E200A83B20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H7FK237D5Z;
