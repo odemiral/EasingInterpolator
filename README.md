@@ -29,7 +29,7 @@ TODO: Port the ValueAnimator library for iOS and use that as an example.
 # Easing Graphs
 ![image](https://user-images.githubusercontent.com/2719770/163296933-13d9b4ae-1ca9-4854-8793-8795dce80043.png)
 ![image](https://user-images.githubusercontent.com/2719770/163297002-55bdaba1-f071-4a2f-a059-94b4b55d0963.png)
-![image](https://user-images.githubusercontent.com/2719770/163297029-6fe21cf5-2e3d-4d2c-87a3-917d22684ebb.png)
+![FPSAnimator1](https://user-images.githubusercontent.com/2719770/163298232-196794b8-8e2a-45df-a9b8-fc453ad39e61.gif)
 
 ## License
 
